@@ -10,6 +10,7 @@ public class asal {
 		// ve "durum" degiskenini 0--> Sifir iken 1--> Bir yapar
 		// boylece sadece asal olan sayilar ekrana yazdirilir.
 		int durum = 0;
+		System.out.println("2 Sayisi Asal Sayidir");
 		for (int j = 3; j <= 1001; j++) {
 			
 			for (int i = 2; i < j; i++) {
