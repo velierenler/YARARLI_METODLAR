@@ -1,6 +1,6 @@
 package com.vektorel;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 /* Genel aciklama: Bu program su adýmlar ile yazildi
  * once bir sayinin bölenleri bulundu 
@@ -21,7 +21,7 @@ public class mukemmelSayi {
 //		int a=sc.nextInt();
 		
 		int toplam = 1;
-		for (int j = 3; j < 10000; j++) {
+		for (int j = 3; j < 999999999; j++) {
 			for (int i = 2; i < j; i++) {
 
 				if (j % i == 0)
